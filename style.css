@@ -1,0 +1,22 @@
+body {
+    padding: .5em;
+}
+.splits {
+    display: flex;
+    text-align: justify;
+}
+
+#leftside {
+    margin-right: 1rem;
+}
+
+#leftside h2 {
+    text-align: right;
+}
+
+#rightside {
+  border-left: 6px solid;
+  border-image-source: linear-gradient(rgb(163, 132, 7), red);
+  border-image-slice: 1;
+  padding-left: 1rem;
+}
