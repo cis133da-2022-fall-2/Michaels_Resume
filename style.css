@@ -1,6 +1,27 @@
 body {
     padding: .5em;
+    background: black;
+    -webkit-text-fill-color: white;
 }
+
+h1 {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+.header {
+    border-bottom: 6px solid rgb(163, 132, 7);
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-top: 3px solid;
+    border-image-source: linear-gradient(limegreen, rgb(163, 132, 7));
+    border-image-slice: 1;
+    padding-bottom: 1rem;
+}
+
 .splits {
     display: flex;
     text-align: justify;
@@ -14,9 +35,22 @@ body {
     text-align: right;
 }
 
+#leftside h3 {
+    text-align: right;
+}
+
+#leftside h5 {
+    text-align: right;
+    font-style: italic;
+}
+
 #rightside {
   border-left: 6px solid;
   border-image-source: linear-gradient(rgb(163, 132, 7), red);
   border-image-slice: 1;
   padding-left: 1rem;
+}
+
+#rightside h5 {
+    font-style: italic;
 }
