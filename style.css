@@ -1,7 +1,7 @@
 body {
     padding: .5em;
-    background: black;
-    -webkit-text-fill-color: white;
+    background: -webkit-radial-gradient(rgb(17, 0, 17), rgb(18, 1, 30));
+    -webkit-text-fill-color: whitesmoke;
 }
 
 h1 {
